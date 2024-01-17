@@ -35,7 +35,6 @@
     width: 450px;
     padding-left: 184px;
     padding-top: 6px;
-    font-style: normal;
 
     color: #000;
 
@@ -51,12 +50,11 @@
     flex-direction: column;
     height: 757px;
     width: auto;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 179px;
     position: relative;
-    
 }
 
 .entrance_section-main_text {
@@ -141,7 +139,6 @@
     height: 692px;
     flex-direction: column;
     margin-bottom: 146px;
-    
 }
 
 .lots__heading {
@@ -191,19 +188,19 @@
 }
 
 .image-1 {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
     z-index: 0;
 }
 
 .image-2 {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
     z-index: 0;
 }
 
 .image-3 {
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
     z-index: 0;
 }
@@ -343,7 +340,6 @@
 }
 
 .footer-address {
-    font-style: normal;
     list-style-type: none;
     
     color: #000;
@@ -351,7 +347,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24.3px; /* 135% */
+    line-height: 24.3px;
     letter-spacing: 0.18px;
 }
 
@@ -360,7 +356,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding-left: 31px;
     padding-top: 1px;    
 
