@@ -170,13 +170,12 @@
     flex-direction: column;
     width: 334px;
     justify-content: space-between;
-    z-index: 0;
     position: relative;
     background-size: cover;
     z-index: 0;
 }
 
-.card-link  {
+.card-link {
     height: 100%;
 }
 
