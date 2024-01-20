@@ -43,6 +43,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24.3px; /* 135% */
+    list-style-type: none;
 }
 
 .address-header {
@@ -72,9 +73,8 @@
     line-height: 115px;
     letter-spacing: 30px;
     text-transform: uppercase;
-    margin: 165px 50px 0px;
+    margin-top: 165px;
     flex-direction: column;
-    gap: 12px;
     z-index: 2;
 }
 
@@ -83,21 +83,20 @@
 }
 
 .aligned-text {
-    width: 316px;
+    text-align: start;
+    padding-left: 50px;
 }
 
 .aligned-text_center {
-    padding-left: 286px;
-    justify-content: center;
-    height: 100px;
-    width: 369px;
+    text-align: center;
+    padding-right: 29px;
+    padding-top: 12px;
 }
 
 .aligned-text_right {
-    padding-left: 584px;
-    height: 100px;
-    width: 417px;
-    padding-top: 8px;
+    text-align: end;
+    padding-right: 20px;
+    padding-top: 5px;
 }
 
 .cover-bottom_text {
@@ -107,25 +106,31 @@
     font-style: normal;
     line-height: 28px;
     text-transform: uppercase;
-    justify-content: space-around;
-    margin: 135px 50px 0px 50px;
+    justify-content: start;
     align-items: center;
     z-index: 2;
+    margin-top: 100px;
 }
 
 .cover-bottom_text-text {
     word-spacing: 19px;
-    padding-top: 27px;
-    padding-left: 27px;
-    padding-bottom: 12px;
+    padding: 1px 0px 0px 17px;
+    margin: 25px 0px 0px 60px;
 }
 
 .bet-button {
     background: transparent;
     border: 1px solid #FFF;
+    color: #FFF;
+    margin: 27px 0px 0px 77px;
     padding: 12px 32px;
-    margin-top: 15px;
-    margin-left: 76px;
+
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .overlay {
@@ -157,6 +162,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    list-style-type: none;
 }
 
 .card {
@@ -166,6 +172,12 @@
     justify-content: space-between;
     z-index: 0;
     position: relative;
+    background-size: cover;
+    z-index: 0;
+}
+
+.card-link  {
+    height: 100%;
 }
 
 .card__title {
@@ -188,24 +200,20 @@
     font-weight: 400;
     line-height: 120%;
     z-index: 3;
+    text-decoration-line: underline;
+    text-underline-position: under;
 }
 
 .image-film {
     background-image: url(../images/card-lot-01.jpg);
-    background-size: cover;
-    z-index: 0;
 }
 
 .image-book {
     background-image: url(../images/card-lot-02.jpg);
-    background-size: cover;
-    z-index: 0;
 }
 
 .image-picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-size: cover;
-    z-index: 0;
 }
 
 .lots__look-more-link {
@@ -214,8 +222,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration-line: underline;
-    text-underline-position: under;
     margin: 30px 0px 0px 40px;
     padding-left: 24px;
     padding-bottom: 3px;
@@ -234,7 +240,6 @@
     align-self: center;
     justify-self: center;
     padding-left: 47px;
-    
 }
 
 .image-card_img {
@@ -290,24 +295,12 @@
     margin: 0px 50px 88px 50px;
 }
 
-.footer-address {
-    list-style-type: none;
-    
-    color: #000;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24.3px;
-    letter-spacing: 0.18px;
-}
-
 .footer_menu {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 31px;
+    padding-left: 36px;
     color: #000;
     text-align: center;
     font-family: Raleway, sans-serif;
